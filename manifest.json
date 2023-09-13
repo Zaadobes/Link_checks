@@ -1,0 +1,23 @@
+{
+    "manifest_version":  3,
+    "name": "Linker",
+    "version": "1.0",
+    "description": "This is an extension To check if a url is safe to visit or not on both mobile phones and desktops. This is not for commercial use.",
+    "author": "Zoe Bamfo ",
+    "icons":{
+    "48": "Linker_Icon.png"
+    },
+
+    "action": {
+      "default_icon": "Linker_Icon.png",
+      "default_title": "Linker",
+      "default_popup": "linker.html"
+    },
+
+    "permissions": [
+      "activeTab"
+    ]
+    
+  }
+  
+
