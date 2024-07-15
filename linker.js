@@ -8,7 +8,7 @@ document
     console.log(url);
 
     // Makiing a request to Google Safe Browsing API 
-    const apQ = "AIzaSyB1HVgDfQjWfAnYXzgC25c16764TkUlW3s";
+    const apQ = "YOUR-API-KEY";
     const apiEndpoint = `https://safebrowsing.googleapis.com/v4/threatMatches:find?key=${apQ}`;
 
     // Construct the request payload for the API
